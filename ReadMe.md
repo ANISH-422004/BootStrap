@@ -1,4 +1,4 @@
--- This is a repository Where i learnt about BootStrap 5 and its components. 
--- I have previously worked with Tailwind CSS and Materialize CSS but this time I wanted to explore BootStrap 5.
--- I will learn each/some topic/topics in each file 
--- I have created a simple responsive website using BootStrap 5 components like Navbar, Cards, Buttons, Forms, and Grid system.
+- This is a repository Where i learnt about BootStrap 5 and its components. 
+- I have previously worked with Tailwind CSS and Materialize CSS but this time I wanted to explore BootStrap 5.
+-  I will learn each/some topic/topics in each file 
+- I have created a simple responsive website using BootStrap 5 components like Navbar, Cards, Buttons, Forms, and Grid system.
