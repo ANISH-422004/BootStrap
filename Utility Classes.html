@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <title>Utility Classes</title>
+  </head>
+  <body>
+    <p>
+      Utility classes for margin and padding allow you to quickly apply spacing
+      to elements without writing custom CSS. Below are some common utility
+      classes:
+    </p>
+
+
+    <h1>Margin and Padding</h1>
+
+    <h2>Margin and Padding Classes</h2>
+
+    <div class="bg-primary m-1 p-1">small margin and padding</div>
+    <div class="bg-danger m-2 p-2">medium margin and padding</div>
+    <div class="bg-success m-3 p-3">large margin and padding</div>
+
+    <h2>margin and padding in x and y axis</h2>
+    <div class="bg-black-50 text-danger py-4 mx-3"></div>
+
+    <h2>Individual Sides Margin and Padding</h2>
+    <div class="bg-info text-white mt-4 mb-2 p-2">  This div has a top margin of 4 and bottom margin of 2 with padding of 2 onall sides.</div>
+    <div class="bg-warning text-dark ms-5 me-1 p-2">
+      This div has a left margin of 5 and right margin of 1 with padding of 2 on
+      all sides.
+    </div>
+    <!-- ms - margin start and me - margin end  -->
+
+
+
+
+    
+    <h1>Borders</h1>
+
+    <!-- Border Basics -->
+    <h3>1. Adding Borders</h3>
+    <span class="border">anish</span>
+    <span class="border-top">anish</span>
+    <span class="border-end">anish</span>
+    <span class="border-bottom">anish</span>
+    <span class="border-start">anish</span>
+
+    <h3>2. Removing Borders</h3>
+    <span class="border border-0">anish</span>
+    <span class="border border-top-0">anish</span>
+    <span class="border border-end-0">anish</span>
+    <span class="border border-bottom-0">anish</span>
+    <span class="border border-start-0">anish</span>
+
+
+    <h3>3. Border Colors</h3>
+    <div class="border border-primary p-2 mb-2">Primary</div>
+    <div class="border border-success p-2 mb-2">Success</div>
+    <div class="border border-danger p-2 mb-2">Danger</div>
+    <div class="border border-warning p-2 mb-2">Warning</div>
+    <div class="border border-info p-2 mb-2">Info</div>
+    <div class="border border-dark p-2 mb-4">Dark</div>
+
+    <h3>4. Subtle Borders</h3>
+    <div class="border border-primary-subtle p-2 mb-2">Primary Subtle</div>
+    <div class="border border-danger-subtle p-2 mb-2">Danger Subtle</div>
+    <div class="border border-success-subtle p-2 mb-4">Success Subtle</div>
+
+    <h3>5. Border Opacity</h3>
+    <div class="border border-success p-2 mb-2">Default</div>
+    <div class="border border-success border-opacity-75 p-2 mb-2">75%</div>
+    <div class="border border-success border-opacity-50 p-2 mb-2">50%</div>
+    <div class="border border-success border-opacity-25 p-2 mb-2">25%</div>
+    <div class="border border-success border-opacity-10 p-2 mb-4">10%</div>
+
+    <h3>6. Border Width</h3>
+    <div class="border border-1 p-2 mb-2">border-1</div>
+    <div class="border border-2 p-2 mb-2">border-2</div>
+    <div class="border border-3 p-2 mb-2">border-3</div>
+    <div class="border border-4 p-2 mb-2">border-4</div>
+    <div class="border border-5 p-2 mb-4">border-5</div>
+
+    <h3>7. Border Radius</h3>
+    <div class="border rounded p-2 mb-2">.rounded</div>
+    <div class="border rounded-top p-2 mb-2">.rounded-top</div>
+    <div class="border rounded-end p-2 mb-2">.rounded-end</div>
+    <div class="border rounded-bottom p-2 mb-2">.rounded-bottom</div>
+    <div class="border rounded-start p-2 mb-4">.rounded-start</div>
+
+    <h3>8. Radius Sizes</h3>
+    <div class="border rounded-0 p-2 mb-2">rounded-0</div>
+    <div class="border rounded-1 p-2 mb-2">rounded-1</div>
+    <div class="border rounded-2 p-2 mb-2">rounded-2</div>
+    <div class="border rounded-3 p-2 mb-2">rounded-3</div>
+    <div class="border rounded-4 p-2 mb-2">rounded-4</div>
+    <div class="border rounded-5 p-2 mb-2">rounded-5</div>
+    <div class="border rounded-circle p-2 mb-2 w-25 text-center">circle</div>
+    <div class="border rounded-pill p-2 mb-4 text-end px-3">pill</div>
+
+    <h3>9. Mixed Radius</h3>
+    <div class="border rounded-bottom-1 p-2 mb-2">rounded-bottom-1</div>
+    <div class="border rounded-start-2 p-2 mb-2">rounded-start-2</div>
+    <div class="border rounded-end-circle p-2 mb-2">rounded-end-circle</div>
+    <div class="border rounded-start-pill p-2 mb-2">rounded-start-pill</div>
+    <div class="border rounded-5 rounded-top-0 p-2 mb-4">
+      rounded-5 rounded-top-0
+    </div>
+
+    <hr />
+    <p class="text-muted">
+      Bootstrap Borders = Control edges, thickness, color, and shape without
+      writing CSS.
+    </p>
+
+
+
+
+
+  </body>
+</html>
